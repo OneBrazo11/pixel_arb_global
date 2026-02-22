@@ -1,5 +1,3 @@
-requests
-pandas
-colorama
-tabulate
 streamlit
+pandas
+requests
