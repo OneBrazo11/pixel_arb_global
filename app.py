@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 # --- CONFIGURACIÓN DE LA PÁGINA ---
-st.set_page_config(page_title="GLOBAL ODDS HUNTER", layout="wide", page_icon="🚀")
+st.set_page_config(page_title="PIXEL GLOBAL ODDS HUNTER", layout="wide", page_icon="🚀")
 
 # Estilos CSS
 st.markdown("""
