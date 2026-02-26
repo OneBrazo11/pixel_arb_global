@@ -17,11 +17,12 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🚀 GLOBAL ODDS HUNTER")
-st.markdown("### 📡 🚀 GLOBAL ODDS HUNTER: Búsqueda de Valor y Arbitraje.")
+st.title("🚀 PIXEL GLOBAL ODDS HUNTER")
+st.markdown("### 📡 Radar 🚀 PIXEL GLOBAL ODDS HUNTER: Búsqueda de Valor y Arbitraje.")
 
 # --- BARRA LATERAL (API KEY) ---
 st.sidebar.header("🔑 Llave de Acceso")
+api_key = st.sidebar.text_input("Tu API Key:", type="password")
 
 if not api_key:
     st.warning("👈 Ingresa tu API Key en la barra lateral y presiona Enter.")
@@ -61,7 +62,7 @@ col2.metric("📉 Créditos Usados", used)
 col3.info("💡 Consejo: Usa el selector de Periodo para ahorrar créditos.")
 
 if str(rem) == "0":
-    st.error("⛔ SALDO AGOTADO.")
+    st.error("⛔ SALDO AGOTADO. Crea una cuenta nueva.")
     st.stop()
 
 st.sidebar.markdown("---")
